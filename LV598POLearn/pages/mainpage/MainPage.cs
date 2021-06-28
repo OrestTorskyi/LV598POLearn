@@ -14,6 +14,7 @@ namespace LV598POLearn.pages
         #region Locators
         private IWebElement InputSearchField { get { return Driver.FindElement(By.Id("search_query_top")); } }
         private IWebElement SubmitSearchQueryBtn { get { return Driver.FindElement(By.XPath("//button[@name = 'submit_search']")); } }
+        private IWebElement ButtonSignIn { get { return Driver.FindElement(By.CssSelector(".login")); } }
         #endregion
 
         #region Components
@@ -35,6 +36,11 @@ namespace LV598POLearn.pages
         public void ClickOnListViewBtn()
         {
             searchQueryComponent.clickOnListViewButton();
+        }
+        public SignIn goToSignInPage()
+        {
+            ButtonSignIn.Click();
+            return new SignIn(Driver);
         }
 
         #endregion

@@ -38,6 +38,11 @@ namespace LV598POLearn.tests
         {
             driver.Navigate().GoToUrl(@"http://automationpractice.com/index.php");
         }
+
+        public MainPage loadApplication()
+        {
+           return new MainPage(driver).goToSignInPage().enterEmail().enterPassword().pressSignInButton().goToMainPage();            
+        }
     }
 }
 
