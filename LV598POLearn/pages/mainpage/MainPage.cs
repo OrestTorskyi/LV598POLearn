@@ -8,7 +8,7 @@ using LV598POLearn.pages.searchquery;
 
 namespace LV598POLearn.pages
 {
-    class MainPage : BaseCommon
+    class MainPage : BaseCommon<MainPage>
     {
 
         #region Locators

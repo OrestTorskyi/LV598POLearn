@@ -21,7 +21,8 @@ namespace LV598POLearn.tests
         [Test]
         public void verifySearchItemsTest()
         {
-            mainPage.SearchSomeProducts("T-shirt");
+            mainPage.GetHeader().
+                SearchSomeProducts("T-shirt");
         }
 
         [Test]
