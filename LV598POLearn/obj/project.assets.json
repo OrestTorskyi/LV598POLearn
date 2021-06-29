@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
+      "projectUniqueName": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn_2\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
       "projectName": "LV598POLearn",
-      "projectPath": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
+      "projectPath": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn_2\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn\\LV598POLearn\\obj\\",
+      "outputPath": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn_2\\LV598POLearn\\LV598POLearn\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
