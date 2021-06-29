@@ -18,6 +18,14 @@ namespace LV598POLearn.pages
         protected BaseCommon(IWebDriver driver) : base(driver) { }
 
 
+        #region Menu
+
+        #endregion
+
+        #region Footer elements
+
+        #endregion
+
         #region Methods
         //generic
         public void GetHeader()
