@@ -46,3 +46,4 @@ D:\TAQC_Academy\C#Learn\POLearn\LV598POLearn_2\LV598POLearn\LV598POLearn\obj\Deb
 D:\TAQC_Academy\C#Learn\POLearn\LV598POLearn_2\LV598POLearn\LV598POLearn\obj\Debug\net48\LV598POLearn.csproj.CopyComplete
 D:\TAQC_Academy\C#Learn\POLearn\LV598POLearn_2\LV598POLearn\LV598POLearn\obj\Debug\net48\LV598POLearn.dll
 D:\TAQC_Academy\C#Learn\POLearn\LV598POLearn_2\LV598POLearn\LV598POLearn\obj\Debug\net48\LV598POLearn.pdb
+D:\TAQC_Academy\C#Learn\POLearn\LV598POLearn_2\LV598POLearn\LV598POLearn\bin\Debug\net48\WebDriver.Support.dll
