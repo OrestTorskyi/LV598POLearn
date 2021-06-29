@@ -7,18 +7,13 @@ using OpenQA.Selenium;
 
 namespace LV598POLearn.pages
 {
-    abstract class BasePage
+    public abstract class BasePage
     {
         //protected IWebDriver driver;
-        public BasePage(IWebDriver driver)  
+        public BasePage(IWebDriver driver)
         {
             this.Driver = driver;
         }
-
-        //public void NavigateToURL()
-        //{
-        //    Driver.Navigate().GoToUrl(@"https://www.google.com/");
-        //}
 
         public IWebDriver Driver { get; private set; }
         #region 

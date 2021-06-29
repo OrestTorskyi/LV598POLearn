@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LV598POLearn.pages.searchquery
+namespace LV598POLearn.pages
 {
-    class SearchQueryComponent : BaseCommon
+    public class SearchQueryPage : BaseCommon
     {
-        public SearchQueryComponent(IWebDriver driver) : base(driver) { }
+        public SearchQueryPage(IWebDriver driver) : base(driver) { }
 
         #region Locators
         private IWebElement GridViewBtn { get { return Driver.FindElement(By.XPath("//li[@id = 'grid']/a")); } }
@@ -18,14 +18,16 @@ namespace LV598POLearn.pages.searchquery
 
 
         #region Methods
-        public void clickOnGridViewButton()
+        public SearchQueryPage clickOnGridViewButton()
         {
             GridViewBtn.Click();
+            return this;
         }
 
-        public void clickOnListViewButton()
+        public SearchQueryPage clickOnListViewButton()
         {
             ListViewBtn.Click();
+            return this;
         }
         #endregion
     }

@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace LV598POLearn.pages
 {
-    abstract class BasePopup : BasePage
+    public abstract class BasePopup : BasePage
     {
-        private BasePopup(IWebDriver driver) : base(driver) { }
+        public BasePopup(IWebDriver driver) : base(driver) { }
     }
 
 }
+
