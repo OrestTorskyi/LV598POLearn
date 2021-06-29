@@ -8,7 +8,7 @@ namespace LV598POLearn.tests
         [Test]
         public void addToWishList()
         {
-            MainPage mainPage = loadApplication();
+            MainPage mainPage = loadApplicationWithLoggedInUser();
         }
       
     }

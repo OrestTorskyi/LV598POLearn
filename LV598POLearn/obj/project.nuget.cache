@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "xiDsGO2/vK0NztSeW/baYTikSbLYTOfLEACFEB99qXNcUN1c7a/IRlYXlGyxcCTWNu4gIPfH0k5aIxcJ/uc4/Q==",
+  "dgSpecHash": "sXGKz/55SGlvZTcObnuj90P+dDW2QlBmEbOYac86Z/U/CJpiaHx0VnkEHMPTaaJjRp5SHdcCctdLmgSNgxE1NA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1\\source\\repos\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
+  "projectFilePath": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn_2\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\1\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\selenium.webdriver.chromedriver\\91.0.4472.10100\\selenium.webdriver.chromedriver.91.0.4472.10100.nupkg.sha512"
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\selenium.webdriver.chromedriver\\91.0.4472.10100\\selenium.webdriver.chromedriver.91.0.4472.10100.nupkg.sha512"
   ],
   "logs": []
 }
