@@ -62,13 +62,13 @@ namespace LV598POLearn.pages
             return headerComponent.SearchSomeProducts(text);
         }
 
-        public T getAlertMessage<T>(T currentClass)
+        public T GetAlertMessage<T>(T currentClass)
         {
             headerComponent.GetAlertMessage(currentClass);
             return currentClass;
         }
 
-        public string getTextOfAlertMessage()
+        public string GetTextOfAlertMessage()
         {
             return headerComponent.GetTextAlertMessage();
         }

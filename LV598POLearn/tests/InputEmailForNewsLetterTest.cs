@@ -29,7 +29,7 @@ namespace LV598POLearn.tests
             mainPage.InputEmailForNewsletter<MainPage>(mainPage, randomEmail + "@gmail.com");
             mainPage.clickOnSubmitEmailBtn<MainPage>(mainPage);
             mainPage.GetHeader();
-            string actualMessage = mainPage.getAlertMessage<MainPage>(mainPage).getTextOfAlertMessage();
+            string actualMessage = mainPage.GetAlertMessage<MainPage>(mainPage).GetTextOfAlertMessage();
             Assert.AreEqual(expectedMessage, actualMessage.Trim(), "The messages aren't the same!");
         }
 
@@ -38,7 +38,7 @@ namespace LV598POLearn.tests
         {
             string expectedMessage = "Newsletter : Invalid email address.";
             mainPage.InputEmailForNewsletter<MainPage>(mainPage, "aslkdj").clickOnSubmitEmailBtn<MainPage>(mainPage).GetHeader();
-            string actualMessage = mainPage.getAlertMessage<MainPage>(mainPage).getTextOfAlertMessage();
+            string actualMessage = mainPage.GetAlertMessage<MainPage>(mainPage).GetTextOfAlertMessage();
             Assert.AreEqual(expectedMessage, actualMessage.Trim(), "The messages aren't the same!");
         }
 
@@ -49,7 +49,7 @@ namespace LV598POLearn.tests
             string expectedMessage = "Newsletter : This email address is already registered.";
             mainPage.InputEmailForNewsletter<MainPage>(mainPage, randomEmail + "@gmail.com").clickOnSubmitEmailBtn<MainPage>(mainPage);
             mainPage.InputEmailForNewsletter<MainPage>(mainPage, randomEmail + "@gmail.com").clickOnSubmitEmailBtn<MainPage>(mainPage).GetHeader();
-            string actualMessage = mainPage.getAlertMessage<MainPage>(mainPage).getTextOfAlertMessage();
+            string actualMessage = mainPage.GetAlertMessage<MainPage>(mainPage).GetTextOfAlertMessage();
             Assert.AreEqual(expectedMessage, actualMessage.Trim(), "The messages aren't the same!");
         }
 
