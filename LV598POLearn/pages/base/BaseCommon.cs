@@ -7,15 +7,13 @@ using System.Threading.Tasks;
 
 namespace LV598POLearn.pages
 {
-    abstract class BaseCommon : BasePage
+    public abstract class BaseCommon : BasePage
     {
 
+        private HeaderComponent headerComponent;
+        private FooterComponent footerComponent;
+        private MenuComponent menuComponent;
         protected BaseCommon(IWebDriver driver) : base(driver) { }
-
-        #region Header elements
-        protected IWebElement ContactUsBtn { get { return Driver.FindElement(By.XPath("//div[contains(@id, 'contact')]/a"));} }
-        protected IWebElement SignInBtn { get { return Driver.FindElement(By.XPath("//a[@class = 'login']")); } }
-        #endregion
 
         #region Menu
 
@@ -23,6 +21,29 @@ namespace LV598POLearn.pages
 
         #region Footer elements
 
+        #endregion
+
+        #region Methods
+        //generic
+        public void GetHeader()
+        {
+            headerComponent = new HeaderComponent(Driver);
+        }
+
+        public void GetFooter()
+        {
+            footerComponent = new FooterComponent(Driver);
+        }
+
+        public void GetMenu()
+        {
+            menuComponent = new MenuComponent(Driver);
+        }
+
+        public T InputEmailForNewsletter<T>(T currentClass, String text)
+        {
+            return footerComponent.InputEmailAddressForNewsLetter(currentClass, text);
+        }
         #endregion
     }
 }
