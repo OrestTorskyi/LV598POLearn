@@ -7,16 +7,12 @@ using OpenQA.Selenium;
 
 namespace LV598POLearn.pages
 {
-    class MyAccount : BasePage
+    public class MyAccount : BaseCommon
     {
 
-        private IWebElement ImageLogo { get { return Driver.FindElement(By.CssSelector(".logo.img-responsive")); } }
+        
         public MyAccount(IWebDriver driver) : base(driver) { }
 
-        public MainPage goToMainPage()
-        {
-            ImageLogo.Click();
-            return new MainPage(Driver);
-        }
+       
     }
 }

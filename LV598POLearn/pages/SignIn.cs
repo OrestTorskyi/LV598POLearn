@@ -7,7 +7,7 @@ using OpenQA.Selenium;
 
 namespace LV598POLearn.pages
 {
-    class SignIn : BaseCommon
+    public class SignIn : BaseCommon
     {
         private IWebElement InputEmailAddress { get { return Driver.FindElement(By.Id("email")); } }
         private IWebElement InputPassword { get { return Driver.FindElement(By.Id("passwd")); } }

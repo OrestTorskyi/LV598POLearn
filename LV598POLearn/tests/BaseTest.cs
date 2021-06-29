@@ -39,32 +39,13 @@ namespace LV598POLearn.tests
             driver.Navigate().GoToUrl(@"http://automationpractice.com/index.php");
         }
 
-        public MainPage loadApplication()
+        public MainPage loadApplicationWithLoggedInUser()
         {
-           return new MainPage(driver).goToSignInPage().enterEmail().enterPassword().pressSignInButton().goToMainPage();            
+            MainPage mainPage = new MainPage(driver);
+            mainPage.GetHeader();
+            MyAccount myAccount = mainPage.goToSignInPage().enterEmail().enterPassword().pressSignInButton();
+            myAccount.GetHeader();
+            return myAccount.goToMainPage();
         }
     }
 }
-
-//private final String BASE_URL = "https://ita-social-projects.github.io/GreenCityClient/#";
-//protected static WebDriver webDriver;
-
-
-//    protected void getDriver()
-//{
-//    String webDriverPath = System.getenv("webdriver.chrome.driver");
-//    System.setProperty("webdriver.chrome.driver", webDriverPath);
-//    webDriver = new ChromeDriver();
-//    WebDriverWait wait = new WebDriverWait(webDriver, 20);
-//    WaitWrapper.setDefaultImplicitlyWait(webDriver);
-//    webDriver.manage().window().maximize();
-//    webDriver.get(BASE_URL);
-//}
-
-
-//@AfterClass
-//    protected void tearDownClass()
-//{
-//    webDriver.close();
-//    webDriver.quit();
-//}

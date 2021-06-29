@@ -12,16 +12,8 @@ namespace LV598POLearn.pages
 
         private HeaderComponent headerComponent;
         private FooterComponent footerComponent;
-        private MenuComponent menuComponent;
         protected BaseCommon(IWebDriver driver) : base(driver) { }
 
-        #region Menu
-
-        #endregion
-
-        #region Footer elements
-
-        #endregion
 
         #region Methods
         //generic
@@ -35,14 +27,23 @@ namespace LV598POLearn.pages
             footerComponent = new FooterComponent(Driver);
         }
 
-        public void GetMenu()
-        {
-            menuComponent = new MenuComponent(Driver);
-        }
-
         public T InputEmailForNewsletter<T>(T currentClass, String text)
         {
             return footerComponent.InputEmailAddressForNewsLetter(currentClass, text);
+        }
+
+        public SignIn goToSignInPage()
+        {
+            return headerComponent.ClickOnSighInBtn();
+        }
+
+        public MainPage goToMainPage()
+        {
+            return headerComponent.goToMainPage();
+        }
+        public SearchQueryPage SearchFor(String text)
+        {
+            return headerComponent.SearchSomeProducts(text);
         }
         #endregion
     }
