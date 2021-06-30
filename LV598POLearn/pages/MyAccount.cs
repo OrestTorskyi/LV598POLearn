@@ -9,10 +9,12 @@ namespace LV598POLearn.pages
 {
     public class MyAccount : BaseCommon
     {
-
-        
         public MyAccount(IWebDriver driver) : base(driver) { }
 
-       
+        private IWebDriver driver { get; }
+
+        private IWebElement lnkMyPersonalInformation => driver.FindElement(By.LinkText("Information"));
+
+        public void clickOnMyPersonalInformation() => lnkMyPersonalInformation.Click();
     }
 }

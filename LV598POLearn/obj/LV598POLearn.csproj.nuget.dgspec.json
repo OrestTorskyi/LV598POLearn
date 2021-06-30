@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn_2\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj": {}
+    "D:\\VITA\\VisualProjects\\LV598POLearn\\LV598POLearn.csproj": {}
   },
   "projects": {
-    "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn_2\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj": {
+    "D:\\VITA\\VisualProjects\\LV598POLearn\\LV598POLearn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn_2\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
+        "projectUniqueName": "D:\\VITA\\VisualProjects\\LV598POLearn\\LV598POLearn.csproj",
         "projectName": "LV598POLearn",
-        "projectPath": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn_2\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
-        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn_2\\LV598POLearn\\LV598POLearn\\obj\\",
+        "projectPath": "D:\\VITA\\VisualProjects\\LV598POLearn\\LV598POLearn.csproj",
+        "packagesPath": "C:\\Users\\Вит\\.nuget\\packages\\",
+        "outputPath": "D:\\VITA\\VisualProjects\\LV598POLearn\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Вит\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net48"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
