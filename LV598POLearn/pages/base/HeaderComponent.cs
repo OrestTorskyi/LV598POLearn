@@ -16,6 +16,8 @@ namespace LV598POLearn.pages
         private IWebElement SubmitSearchQueryBtn { get { return Driver.FindElement(By.XPath("//button[@name = 'submit_search']")); } }
 
         private IWebElement ImageLogo { get { return Driver.FindElement(By.CssSelector(".logo.img-responsive")); } }
+
+        private IWebElement alertMassege;
         #endregion
         public HeaderComponent(IWebDriver driver) : base(driver) { }
 
@@ -32,10 +34,21 @@ namespace LV598POLearn.pages
             SubmitSearchQueryBtn.Click();
             return new SearchQueryPage(Driver);
         }
-        public MainPage goToMainPage()
+        public MainPage GoToMainPage()
         {
             ImageLogo.Click();
             return new MainPage(Driver);
+        }
+
+        public T GetAlertMessage<T>(T currentClass)
+        {
+            alertMassege = Driver.FindElement(By.XPath("//p[contains(@class, 'alert')]"));
+            return currentClass;
+        }
+
+        public string GetTextAlertMessage()
+        {
+            return alertMassege.Text;
         }
         #endregion
     }
