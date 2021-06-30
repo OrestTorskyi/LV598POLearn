@@ -39,7 +39,7 @@ namespace LV598POLearn.tests
             cartPage = new CartPage(driver);
             cartPage.DeleteProduct();
 
-            string actualMessage = cartPage.WarnningMessage();
+            string actualMessage = cartPage.GetTextWarningMessage();
             string expectedMessage = "Your shopping cart is empty.";
             Assert.AreEqual(expectedMessage, actualMessage, "Message is WRONG!!!");
 

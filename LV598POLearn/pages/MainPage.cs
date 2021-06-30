@@ -14,7 +14,7 @@ namespace LV598POLearn.pages
 
         #region Locators
 
-        private IWebElement ButtonSignIn { get { return Driver.FindElement(By.CssSelector(".login")); } }
+
         private IWebElement BestSellersButton { get { return Driver.FindElement(By.XPath("//a[@class='blockbestsellers']")); } }
         private IWebElement CurrentProductButton { get { return Driver.FindElement(By.XPath("//*[@id='blockbestsellers']/li/div/div[@class='right-block']/h5/a[contains(text(),'Printed Chiffon Dress')]")); } }
 
@@ -24,11 +24,7 @@ namespace LV598POLearn.pages
         #region Components
         #endregion
 
-
-        public MainPage(IWebDriver driver) : base(driver)
-        {
-        }
-
+        public MainPage(IWebDriver driver) : base(driver) { }
 
         #region Methods
 

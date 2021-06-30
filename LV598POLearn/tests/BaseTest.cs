@@ -44,7 +44,7 @@ namespace LV598POLearn.tests
             mainPage.GetHeader();
             MyAccount myAccount = mainPage.goToSignInPage().enterEmail().enterPassword().pressSignInButton();
             myAccount.GetHeader();
-            return myAccount.goToMainPage();
+            return myAccount.GoToMainPage();
         }
     }
 }

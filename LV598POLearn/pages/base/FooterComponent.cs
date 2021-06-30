@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenQA.Selenium.Support.UI;
+using LV598POLearn.utils;
 
 namespace LV598POLearn.pages
 {
@@ -20,9 +22,16 @@ namespace LV598POLearn.pages
         {
             NewsletterInput.Clear();
             NewsletterInput.SendKeys(text);
+            return currentClass;
+        }
+
+        public T clickOnSubmitEmailBtn<T>(T currentClass)
+        {
+            //WaitSwitcher.SetExcplicitlyWait(Driver, 10, ExpectedConditions.ElementToBeClickable(EmailSubmitBtn));
             EmailSubmitBtn.Click();
             return currentClass;
         }
+
         #endregion
 
     }

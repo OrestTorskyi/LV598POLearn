@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using LV598POLearn.utils;
+using OpenQA.Selenium.Support.UI;
 
 namespace LV598POLearn.pages
 {
@@ -35,7 +37,7 @@ namespace LV598POLearn.pages
             Actions actions = new Actions(Driver);
             actions.SendKeys(Keys.PageDown).Build().Perform();
             AddToCartButton.Click();
-            Thread.Sleep(600);
+            WaitSwitcher.SetExcplicitlyWait(Driver, 10, ExpectedConditions.ElementToBeClickable(AddToCartButton));
             return new SuccesfullyAddedProductPage(Driver);
 
 

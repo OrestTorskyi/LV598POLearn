@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KZ01Cjpultja4ROiT6ZJofyDAsWP3Okj9qLwtvRILTFDTNN5/X74brzG+gZNHJWRJmv1UQG7zK8TRfo0NsCbPw==",
+  "dgSpecHash": "y+tvoz4J56GwmbqqvDg0lbfGdeZDYQVclEL4tvYrUTiTbX6mwOcIQli5svMTjpMjHgnjM1bAhNGHrSNNvxZGgA==",
   "success": true,
   "projectFilePath": "E:\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\x751s\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
     "C:\\Users\\x751s\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\x751s\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\x751s\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\x751s\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
     "C:\\Users\\x751s\\.nuget\\packages\\selenium.webdriver.chromedriver\\91.0.4472.10100\\selenium.webdriver.chromedriver.91.0.4472.10100.nupkg.sha512"
   ],
