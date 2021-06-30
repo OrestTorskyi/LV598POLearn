@@ -9,12 +9,11 @@ namespace LV598POLearn.pages
 {
     public class SearchQueryPage : BaseCommon
     {
-        public SearchQueryPage(IWebDriver driver) : base(driver) { }
-
         #region Locators
         private IWebElement GridViewBtn { get { return Driver.FindElement(By.XPath("//li[@id = 'grid']/a")); } }
-        private IWebElement ListViewBtn { get { return Driver.FindElement(By.XPath("//li[@id = 'list']/a"));  } }
+        private IWebElement ListViewBtn { get { return Driver.FindElement(By.XPath("//li[@id = 'list']/a")); } }
         #endregion
+        public SearchQueryPage(IWebDriver driver) : base(driver) { }
 
 
         #region Methods
