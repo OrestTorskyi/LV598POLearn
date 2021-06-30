@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace LV598POLearn.pages
@@ -38,7 +39,9 @@ namespace LV598POLearn.pages
         }
 
         public MainPage goToMainPage()
+
         {
+            Thread.Sleep(500);
             return headerComponent.goToMainPage();
         }
         public SearchQueryPage SearchFor(String text)

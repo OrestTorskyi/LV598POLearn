@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace LV598POLearn.pages
 {
@@ -33,7 +34,9 @@ namespace LV598POLearn.pages
             return new SearchQueryPage(Driver);
         }
         public MainPage goToMainPage()
+           
         {
+           
             ImageLogo.Click();
             return new MainPage(Driver);
         }

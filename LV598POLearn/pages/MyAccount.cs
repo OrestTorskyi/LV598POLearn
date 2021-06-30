@@ -10,9 +10,9 @@ namespace LV598POLearn.pages
     public class MyAccount : BaseCommon
     {
 
-        
+
         public MyAccount(IWebDriver driver) : base(driver) { }
 
-       
+
     }
 }
