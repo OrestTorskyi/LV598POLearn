@@ -392,6 +392,12 @@ FodyWeavers.xsd
 .idea/
 *.sln.iml
 
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
