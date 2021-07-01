@@ -1,9 +1,12 @@
-﻿using OpenQA.Selenium;
+﻿using LV598POLearn.utils;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+
 
 namespace LV598POLearn.pages
 {
@@ -14,6 +17,14 @@ namespace LV598POLearn.pages
         private FooterComponent footerComponent;
         protected BaseCommon(IWebDriver driver) : base(driver) { }
 
+
+        #region Menu
+
+        #endregion
+
+        #region Footer elements
+
+        #endregion
 
         #region Methods
         //generic
@@ -32,18 +43,34 @@ namespace LV598POLearn.pages
             return footerComponent.InputEmailAddressForNewsLetter(currentClass, text);
         }
 
+        public T clickOnSubmitEmailBtn<T>(T currentClass)
+        {
+            return footerComponent.clickOnSubmitEmailBtn(currentClass);
+        }
+
         public SignIn goToSignInPage()
         {
             return headerComponent.ClickOnSighInBtn();
         }
 
-        public MainPage goToMainPage()
+        public MainPage GoToMainPage()
         {
-            return headerComponent.goToMainPage();
+            return headerComponent.GoToMainPage();
         }
         public SearchQueryPage SearchFor(String text)
         {
             return headerComponent.SearchSomeProducts(text);
+        }
+
+        public T GetAlertMessage<T>(T currentClass)
+        {
+            headerComponent.GetAlertMessage(currentClass);
+            return currentClass;
+        }
+
+        public string GetTextOfAlertMessage()
+        {
+            return headerComponent.GetTextAlertMessage();
         }
         #endregion
     }

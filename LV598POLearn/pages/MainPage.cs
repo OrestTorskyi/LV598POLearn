@@ -11,8 +11,6 @@ namespace LV598POLearn.pages
     {
 
         #region Locators
-       
-        private IWebElement ButtonSignIn { get { return Driver.FindElement(By.CssSelector(".login")); } }
         #endregion
 
         #region Components
