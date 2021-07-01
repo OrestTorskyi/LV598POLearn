@@ -1,15 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "L/guHseCTldX9najmWi+O38PIKpEF9URBiNQlBgshjWJldPeDbRWnPsZq7GhVPwYEKzXdE2bcw8mPqxMfqGVEA==",
+  "dgSpecHash": "pXxhxVkxtq+jLxPzKHuBJ7VPgSr+ddj1Z+Iud5mh4z+MFji67xeRu08ZIKzKQpCKIuD3jRmR2waMatSMMCj9Bw==",
   "success": true,
-  "projectFilePath": "D:\\TAQC_Academy\\C#Learn\\POLearn\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
+  "projectFilePath": "C:\\Users\\nadia\\RiderProjects\\LV598POLearn\\LV598POLearn\\LV598POLearn.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\asus\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\selenium.webdriver.chromedriver\\91.0.4472.10100\\selenium.webdriver.chromedriver.91.0.4472.10100.nupkg.sha512"
+    "C:\\Users\\nadia\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\cucumber.messages\\6.0.1\\cucumber.messages.6.0.1.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\dynamitey\\2.0.9.136\\dynamitey.2.0.9.136.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\google.protobuf\\3.7.0\\google.protobuf.3.7.0.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\selenium.webdriver.chromedriver\\91.0.4472.10100\\selenium.webdriver.chromedriver.91.0.4472.10100.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\specflow\\3.9.8\\specflow.3.9.8.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\specflow.assist.dynamic\\1.4.2\\specflow.assist.dynamic.1.4.2.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\specflow.internal.json\\1.0.8\\specflow.internal.json.1.0.8.nupkg.sha512",
+    "C:\\Users\\nadia\\.nuget\\packages\\system.valuetuple\\4.4.0\\system.valuetuple.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }
