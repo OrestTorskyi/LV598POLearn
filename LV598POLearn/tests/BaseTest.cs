@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using NUnit.Framework;
-using OpenQA.Selenium.Chrome;
 using System.Threading;
 using LV598POLearn.pages;
 
