@@ -17,8 +17,8 @@ namespace LV598POLearn.pages
         private IWebElement productItem { get { return Driver.FindElement(By.CssSelector("#homefeatured li:first-child a[class='product_img_link']")); } }
         #endregion
 
-                #region Components
-                #endregion
+        #region Components
+        #endregion
                 
         #region Methods
         public ProductItemPage chooseFirstProductItem()
@@ -27,7 +27,6 @@ namespace LV598POLearn.pages
             productItem.Click();
             return new ProductItemPage(Driver);
         }
-      
         #endregion
-    }
+   
 }

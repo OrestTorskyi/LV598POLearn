@@ -10,16 +10,14 @@ namespace LV598POLearn.pages
    public class WishListComponent : BaseCommon
     {
         public WishListComponent(IWebDriver driver) : base(driver) { }
-    
+        #region Locators
         private IWebElement wishListName { get { return Driver.FindElement(By.XPath("//a[contains(text(),'My wishlist')]"));} }
-        
-
+        #endregion
+        #region Methods
         public String getWishListName()
         {
           return  wishListName.Text;
         }
-
-
-
+        #endregion
     }
 }
