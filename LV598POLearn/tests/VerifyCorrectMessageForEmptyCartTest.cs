@@ -12,8 +12,6 @@ namespace LV598POLearn.tests
 {
     class VerifyCorrectMessageForEmptyCartTest : BaseTest
     {
-
-
         CartPage cartPage;
         MainPage mainPage;
 
@@ -25,24 +23,16 @@ namespace LV598POLearn.tests
                     .GetBestSellerProduct()
                     .GetAddtoCartProducts()
                     .ProceedToChecckout();
-
-
-
         }
-
 
         [Test]
         public void MyTest()
         {
-
-
             cartPage = new CartPage(driver);
             cartPage.DeleteProduct();
-
             string actualMessage = cartPage.GetTextWarningMessage();
             string expectedMessage = "Your shopping cart is empty.";
             Assert.AreEqual(expectedMessage, actualMessage, "Message is WRONG!!!");
-
         }
 
     }

@@ -13,23 +13,15 @@ namespace LV598POLearn.pages
 {
     public class CurrentBestSellersProductPage : BaseCommon
     {
+        public CurrentBestSellersProductPage(IWebDriver driver) : base(driver) { }
         #region Locators
-
         private IWebElement AddToCartButton { get { return Driver.FindElement(By.CssSelector("button.exclusive")); } }
 
-
-
         #endregion
-
         #region Components
 
-
         #endregion
 
-        public CurrentBestSellersProductPage(IWebDriver driver) : base(driver)
-        {
-
-        }
         #region Methods
 
         public SuccesfullyAddedProductPage GetAddtoCartProducts()
@@ -39,11 +31,6 @@ namespace LV598POLearn.pages
             AddToCartButton.Click();
             WaitSwitcher.SetExcplicitlyWait(Driver, 10, ExpectedConditions.ElementToBeClickable(AddToCartButton));
             return new SuccesfullyAddedProductPage(Driver);
-
-
-
-
-
         }
         #endregion
     }
