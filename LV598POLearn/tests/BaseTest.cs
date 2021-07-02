@@ -40,6 +40,7 @@ namespace LV598POLearn.tests
 
         public MainPage loadApplicationWithLoggedInUser()
         {
+           
             MainPage mainPage = new MainPage(driver);
             mainPage.GetHeader();
             MyAccount myAccount = mainPage.goToSignInPage().enterEmail().enterPassword().pressSignInButton();
