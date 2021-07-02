@@ -43,7 +43,6 @@ namespace LV598POLearn.tests
             string expectedMessage = "Your shopping cart is empty.";
             Assert.AreEqual(expectedMessage, actualMessage, "Message is WRONG!!!");
 
-
         }
 
     }

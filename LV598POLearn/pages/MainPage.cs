@@ -15,7 +15,7 @@ namespace LV598POLearn.pages
     public class MainPage : BaseCommon
     {
         public MainPage(IWebDriver driver) : base(driver) { }
-       
+
         #region Locators
         private IWebElement BestSellersButton { get { return Driver.FindElement(By.XPath("//a[@class='blockbestsellers']")); } }
         private IWebElement CurrentProductButton { get { return Driver.FindElement(By.XPath("//*[@id='blockbestsellers']/li/div/div[@class='right-block']/h5/a[contains(text(),'Printed Chiffon Dress')]")); } }
@@ -37,8 +37,6 @@ namespace LV598POLearn.pages
             Thread.Sleep(400);
             return new CurrentBestSellersProductPage(Driver);
         }
-    }             
-        #region Methods
         public ProductItemPage chooseFirstProductItem()
         {
             Driver.Manage().Window.Size = new System.Drawing.Size(1024, 656);
@@ -46,5 +44,7 @@ namespace LV598POLearn.pages
             return new ProductItemPage(Driver);
         }
         #endregion
-   }
+    }
+
+}
 
