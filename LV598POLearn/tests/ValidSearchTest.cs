@@ -16,20 +16,19 @@ namespace LV598POLearn.tests
         public void GoToMainPage()
         {
             mainPage = new MainPage(driver);
-            mainPage.GetHeader();
         }
 
         [Test]
         public void verifySearchItemsTest()
         {
-            mainPage.SearchFor("T-shirt");
+            mainPage.SearchSomeProducts("T-shirt");
         }
 
         [Test]
         public void verifyListViewTest()
         {
-            SearchQueryPage search = mainPage.SearchFor("T-shirt")
-                .clickOnListViewButton();
+            mainPage.SearchSomeProducts("T-shirt");
+            mainPage.ClickOnListViewBtn();
             Thread.Sleep(2000);
         }
     }
