@@ -354,4 +354,3 @@ MigrationBackup/
 _ReSharper.*
 obj
 packages
-*.csproj
