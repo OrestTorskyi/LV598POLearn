@@ -9,6 +9,14 @@ namespace LV598POLearn.tests
         public void addToWishList()
         {
             MainPage mainPage = loadApplicationWithLoggedInUser();
+            string expected = "My wishlist";
+            string actual = mainPage.chooseFirstProductItem()
+                                     .addToWishList()
+                                     .closePopUp()
+                                     .goToMyAccount()
+                                     .goToWishListComponent()
+                                     .getWishListName();
+            Assert.AreEqual(actual, expected);
         }
       
     }
