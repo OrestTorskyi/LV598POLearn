@@ -24,7 +24,7 @@ namespace LV598POLearn.SpecFlow
             driver.Manage().Window.Maximize();
 
             _scenarioContext.Set(driver, "WebDriver");
-            
+          
             return driver;
 
         }

@@ -22,7 +22,7 @@ namespace LV598POLearn.SpecFlow.Pages
         public void CheckIsProductSearched()
         {
             string result = getErrorText();
-            string expectedResult = "No results were found for your search \"TShirt\"\n\n";
+            string expectedResult = ""; 
             Assert.AreEqual(expectedResult,result, "Search was done not correctly");
 
             

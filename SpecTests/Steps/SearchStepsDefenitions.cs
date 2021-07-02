@@ -9,21 +9,11 @@ namespace SpecTests.Steps
     [Binding]
     public class SearchStepsDefenitions 
     {
-
         private readonly ScenarioContext _scenarioContext;
-       
-        
-     
+      
        private MainPage mainPage;
         private SearchPage searchPage;
         public IWebDriver Driver { get; private set; }
-        //[Given("Open browser")]
-     
-        //public void OpenBrowser()
-        //{
-         //   Driver = _scenarioContext.Get<SeleniumDriver>("SeleniumDriver").GetBrowser();
-        //}
-        //public IWebDriver Driver { get { return _scenarioContext.Get<SeleniumDriver>("SeleniumDriver").GetBrowser(); } }
         public SearchStepsDefenitions(ScenarioContext scenarioContext) 
         {
             _scenarioContext = scenarioContext;
@@ -36,12 +26,10 @@ namespace SpecTests.Steps
         [Given(@"Website is opened")]
         public void GivenWebsiteIsOpened()
         {
-            //Driver = _scenarioContext.Get<SeleniumDriver>("SeleniumDriver").GetBrowser();
             Driver.Url = "http://automationpractice.com/index.php";
 
         }
-
-
+        
         [When("Click on search field")]
         public void WhenSearchFieldIsReady()
         {

@@ -9,8 +9,7 @@ namespace LV598POLearn.SpecFlow.Pages
 
 
     {
-    private const string Url = "http://automationpractice.com/index.php";
-
+        
     private readonly IWebDriver _driver;
         public IWebDriver Driver { get; private set; }
       
