@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using NUnit.Framework;
-using OpenQA.Selenium.Chrome;
 using System.Threading;
 using LV598POLearn.pages;
 
@@ -41,6 +40,7 @@ namespace LV598POLearn.tests
 
         public MainPage loadApplicationWithLoggedInUser()
         {
+           
             MainPage mainPage = new MainPage(driver);
             mainPage.GetHeader();
             MyAccount myAccount = mainPage.goToSignInPage().enterEmail().enterPassword().pressSignInButton();
