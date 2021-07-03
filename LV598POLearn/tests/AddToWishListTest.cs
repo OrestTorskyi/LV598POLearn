@@ -10,7 +10,7 @@ namespace LV598POLearn.tests
         {
             MainPage mainPage = loadApplicationWithLoggedInUser();
             string expected = "My wishlist";
-            string actual = mainPage.chooseFirstProductItem()
+            string actual = mainPage.ChooseFirstProductItem()
                                      .addToWishList()
                                      .closePopUp()
                                      .goToMyAccount()
