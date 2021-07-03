@@ -15,6 +15,7 @@ namespace LV598POLearn.pages
         #region Locators
         private IWebElement DeleteButton { get { return Driver.FindElement(By.XPath("//a[@title='Delete']")); } }
         private IWebElement WarningMessage { get { return Driver.FindElement(By.CssSelector("#center_column > p")); } }
+        private IWebElement ContainsMessage { get { return Driver.FindElement(By.CssSelector("#cart_title > span")); } }
 
         #endregion
 
@@ -31,6 +32,11 @@ namespace LV598POLearn.pages
         {
             WaitSwitcher.SetExcplicitlyWait(Driver, 10, ExpectedConditions.ElementIsVisible(By.CssSelector("#center_column > p")));
             return WarningMessage.Text;
+        }
+        public string GetTextContainsMessage()
+        {
+            WaitSwitcher.SetExcplicitlyWait(Driver, 10, ExpectedConditions.ElementIsVisible(By.CssSelector("#cart_title > span")));
+            return ContainsMessage.Text;
         }
         #endregion
     }
