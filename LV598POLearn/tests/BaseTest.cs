@@ -8,6 +8,7 @@ using OpenQA.Selenium;
 using NUnit.Framework;
 using System.Threading;
 using LV598POLearn.pages;
+using OpenQA.Selenium.Firefox;
 
 namespace LV598POLearn.tests
 {
@@ -19,7 +20,8 @@ namespace LV598POLearn.tests
         [OneTimeSetUp]
         public void BeforeAllMethods()
         {
-            driver = new ChromeDriver();
+            //driver = new ChromeDriver();
+            driver = new FirefoxDriver();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Manage().Window.Maximize();
         }

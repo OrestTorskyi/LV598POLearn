@@ -9,7 +9,7 @@ namespace LV598POLearn.tests
         MainPage mainPage;
 
         [SetUp]
-        public void GoToMainPage()
+        public void AddProduct()
         {
             mainPage = loadApplicationWithLoggedInUser();
             mainPage.ChooseBestSellersProducts()
